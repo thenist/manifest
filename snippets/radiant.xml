@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="radiant"
+           fetch="https://github.com/ProjectRadiant" 
+           revision="twelve" />
+
+  <!-- Main -->
+  <project path="build/make" name="build" remote="radiant" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="radiant" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bionic" name="bionic" remote="radiant" />
+  <project name="libcore" path="libcore" remote="radiant" />
+
+  <!-- SEPolicy -->
+  <project path="device/radiant/sepolicy" name="device_radiant_sepolicy" remote="radiant" revision="twelve"/>
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="radiant" revision="twelve" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="radiant" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" revision="twelve-legacy" remote="radiant" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" revision="twelve-legacy-um" remote="radiant" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="frameworks_base" remote="radiant" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="radiant" />
+  <project path="frameworks/native" name="frameworks_native" remote="radiant" />
+
+  <!-- Packages -->
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="radiant" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="radiant" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="radiant" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="radiant" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="radiant" />
+
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="radiant" />
+
+  <!-- External -->
+  <project path="external/exfatprogs" name="external_exfatprogs" remote="radiant" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="radiant" />
+  <project path="external/json-c" name="external_json-c" remote="radiant" />
+  <project path="external/selinux" name="external_selinux" remote="radiant" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="radiant" />
+
+  <!-- System -->
+  <project path="system/core" name="system_core" remote="radiant" />
+  <project path="system/vold" name="system_vold" remote="radiant" />
+
+  <!-- Vendor -->
+  <project path="vendor/support" name="vendor_support" remote="radiant"/>
+  <project path="vendor/radiant" name="vendor_radiant" remote="radiant"/>
+
+</manifest>
