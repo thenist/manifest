@@ -43,6 +43,7 @@
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="radiant" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="radiant" />
 
   <!-- External -->
   <project path="external/exfatprogs" name="external_exfatprogs" remote="radiant" />
