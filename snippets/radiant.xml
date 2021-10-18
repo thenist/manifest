@@ -55,6 +55,7 @@
   <!-- System -->
   <project path="system/core" name="system_core" remote="radiant" />
   <project path="system/vold" name="system_vold" remote="radiant" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="radiant" />
 
   <!-- Vendor -->
   <project path="vendor/support" name="vendor_support" remote="radiant"/>
