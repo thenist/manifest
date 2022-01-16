@@ -56,6 +56,7 @@
 
   <!-- External -->
   <project path="external/exfatprogs" name="external_exfatprogs" remote="radiant" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="radiant" />
   <project path="external/json-c" name="external_json-c" remote="radiant" />
   <project path="external/selinux" name="external_selinux" remote="radiant" />
