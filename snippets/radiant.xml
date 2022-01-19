@@ -30,6 +30,8 @@
   <project path="bionic" name="bionic" remote="radiant" />
   <project name="libcore" path="libcore" remote="radiant" />
 
+  <project path="bootable/recovery" name="bootable_recovery" remote="radiant" />
+
   <!-- SEPolicy -->
   <project path="device/radiant/sepolicy" name="device_radiant_sepolicy" remote="radiant"/>
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="radiant" />
