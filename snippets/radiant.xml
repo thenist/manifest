@@ -57,6 +57,8 @@
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="radiant" />
 
   <!-- External -->
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="radiant" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="radiant" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="radiant" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
   <project path="external/mksh" name="external_mksh" remote="radiant" />
@@ -77,11 +79,5 @@
   <project path="vendor/fonts" name="vendor_fonts" remote="radiant"/>
   <project path="vendor/rdntextras" name="vendor_rdntextras" remote="radiant"/>
   <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" clone-depth="1" />
-  <project path="vendor/lawnicons" name="vendor_lawnicons" remote="radiant"/>
-  <project path="vendor/resources/lawnicons" name="LawnchairLauncher/lawnicons" remote="github" revision="main-wip" >
-    <linkfile src="app/src/main/res/drawable/*" dest="vendor/lawnicons/iconoverlay/packages/apps/Launcher3/res/drawable" />
-    <linkfile src="app/src/main/res/xml/*" dest="vendor/lawnicons/iconoverlay/packages/apps/Launcher3/res/xml" />
-    <linkfile src="app/src/main/res/values/dimens.xml" dest="vendor/lawnicons/iconoverlay/packages/apps/Launcher3/res/values/dimens.xml" />
-  </project>
 
 </manifest>

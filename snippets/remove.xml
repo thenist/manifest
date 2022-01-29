@@ -74,6 +74,9 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/sqlite" />
 
   <!-- apps -->
   <remove-project name="platform/packages/apps/Nfc" />
