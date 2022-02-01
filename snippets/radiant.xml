@@ -5,6 +5,10 @@
            fetch="https://github.com/ProjectRadiant" 
            revision="twelve" />
 
+    <remote  name="RadiantDevices"
+           fetch="https://github.com/RadiantDevices" 
+           revision="twelve" />
+  
   <remote  name="gitlab"
            revision="12"
            fetch="https://gitlab.com/Maitreya29/" />
