@@ -56,6 +56,7 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="radiant" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="radiant" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="radiant" />
+  <project path="packages/apps/Themer" name="packages_apps_Themer" remote="radiant" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="radiant" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="radiant" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="radiant" />
@@ -84,7 +85,6 @@
   <!-- Vendor -->
   <project path="vendor/support" name="vendor_support" remote="radiant"/>
   <project path="vendor/radiant" name="vendor_radiant" remote="radiant"/>
-  <project path="vendor/fonts" name="vendor_fonts" remote="radiant"/>
   <project path="vendor/rdntextras" name="vendor_rdntextras" remote="radiant"/>
   <project path="vendor/gms" name="android_vendor_gms" remote="gitlab" clone-depth="1" />
 
