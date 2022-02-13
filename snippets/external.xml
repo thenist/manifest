@@ -14,8 +14,8 @@
            fetch="https://github.com/LineageOS"
            revision="lineage-19.0" />
 
-  <remote  name="dylan"
-           fetch="https://github.com/dylanneve1"
+  <remote  name="thenist"
+           fetch="https://github.com/thenist"
            revision="twelve" />
 
   <remote  name="arrow-git"
