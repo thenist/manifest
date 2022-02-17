@@ -59,6 +59,7 @@
   <project path="packages/apps/Themer" name="packages_apps_Themer" remote="radiant" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="radiant" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="radiant" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="radiant" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="radiant" />
 
   <!-- Hardware -->
